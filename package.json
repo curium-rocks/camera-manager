@@ -4,11 +4,13 @@
   "description": "Manages onvif cameras and tunes settings to reduce false positives",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "onvif": "^0.6.6"
+    "onvif": "^0.6.6",
+    "xml2js": "^0.4.23"
   }
 }
